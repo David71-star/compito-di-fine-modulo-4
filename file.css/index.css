@@ -1,0 +1,72 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+form{
+    background-color: #25142d;
+    padding: 3%;
+    margin-inline: 2%;
+    border-bottom-right-radius: 25px ;
+    border-bottom-left-radius: 25px;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+}
+#add{
+    padding: 7.5px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+#add:hover{
+    animation: upDown 0.4s  0.15s linear  normal;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 15px white;  
+}
+@keyframes upDown {
+    15% { transform: translateY(0px) }
+    30% { transform: translateY(-40px) }
+    50% { transform: translateY(0px) }
+    65% { transform: translateY(-30px) }
+    80% { transform: translateY(0px) }
+    90% { transform: translateY(-20px) }
+    95% { transform: translateY(0px) }
+    97.5% { transform: translateY(-10px) }
+    100% { transform: translateY(0px) }
+}
+.container{
+    cursor: default;
+}
+.card{
+ box-shadow: 0px 1px 7px white ;
+ border-radius: 20px;
+}
+.card:hover{
+    transform: scale(102%, 102%);
+    transition-duration: 0.3s;
+    transition-delay: 0.25s;
+}
+.card img{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.bottonicard{
+    border-radius: 20px;
+    background-color: #25142d;
+    color: red;
+    padding: 5px;
+    border: none;   
+    text-decoration: none;
+    text-align: center;
+    width: max-content;
+}
+.bottonicard:hover{
+    box-shadow: 0px 0px 10px red;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+}
