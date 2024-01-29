@@ -1,4 +1,4 @@
-import { deleteProduct, putProduct } from "./home.js";
+import { deleteProduct, putProduct } from "./index.js";
 
 export function createCard(product) {
   // Create div element with the specified classes
